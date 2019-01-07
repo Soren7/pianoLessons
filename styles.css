@@ -1,8 +1,7 @@
-body {
-   font-family:  sans-serif;
-}
+
 
 #nav-bar {
+   position: sticky;
    z-index: 1;
    width: 100%;
    background-color: #9e1313;
@@ -11,7 +10,6 @@ body {
 }
 
 #nav-bar a {
-
    color: white;
    text-decoration: none;
    margin-left: 50px;
@@ -31,28 +29,41 @@ body {
 }
 
 #title {
+   font-family: Sarabun;
    text-decoration: underline;
 }
 
-#container {
-display: block;
-max-width: 955px;
-min-width: 300px;
-margin-left: auto;
-margin-right: auto;
-}
-
-#main-content {
+#heading {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   text-align: center;
+
 }
 
+body {
+   display: block;
+   max-width: 955px;
+   min-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: none;
+
+   font-family:  Lato;
+}
+
+.main-content {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: none;
+   text-align: center;
+}
+ 
 .img-link {
    max-width: 100px;
    max-height: 80px;
-   margin: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
    border: white 2px solid;
 }
 
@@ -62,12 +73,22 @@ margin-right: auto;
 
 #note-card {
    display: block;
-   margin-left: 20%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-#note-card-bullet { 
-   margin-top: 5%;
-   margin-right: 5%;
+#material-list {
+   display: block;
+   max-width: 955px;
+   min-width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 5;
+}
+
+#material-list li {
+   z-index: 5;
+   list-style-type: none;
 }
 
 #piano-img {
@@ -80,11 +101,19 @@ margin-right: auto;
 }
 
 #alfred-books {
-   margin-left: 20%;
-   margin-top: -70px;
+   z-index: 1;
+   margin-left: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 #contact-info {
+   display: block;
+   max-width: 955px;
+   min-width: 300px;
+   margin-left: 40%;
+   margin-right: 50%;
+
    font-size: 20px;  
 }
 
@@ -101,4 +130,6 @@ margin-right: auto;
    color: rgba(39, 116, 216, 0.897)
 }
 
-
+span {
+   font-weight: 700;
+}
