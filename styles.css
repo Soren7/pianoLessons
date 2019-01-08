@@ -5,7 +5,7 @@
    z-index: 1;
    width: 100%;
    background-color: #9e1313;
-   height: 66px;
+   height: 70px;
    text-align: center;
 }
 
@@ -14,9 +14,11 @@
    text-decoration: none;
    margin-left: 50px;
    margin-right: 50px;
-   padding: 25px 0;
+   margin-top: auto;
+   margin-bottom: auto;
    z-index: 5;
-   height: 40px;
+
+   height: 40px;p
    width: 100px;
 }
 
@@ -98,6 +100,7 @@ body {
    max-width: 600px;
    min-width: 200px;
    align-items: center;
+   padding: none;
 }
 
 #alfred-books {
@@ -111,10 +114,11 @@ body {
    display: block;
    max-width: 955px;
    min-width: 300px;
-   margin-left: 40%;
-   margin-right: 50%;
+   margin-left: 10%;
+   margin-right: 10%;
 
    font-size: 20px;  
+   text-align: center;
 }
 
 #contact-info a {
