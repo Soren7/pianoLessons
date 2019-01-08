@@ -1,5 +1,4 @@
 
-
 #nav-bar {
    position: sticky;
    z-index: 1;
@@ -7,19 +6,24 @@
    background-color: #9e1313;
    height: 70px;
    text-align: center;
+   margin-top: 18px;
+   vertical-align: middle;
 }
 
 #nav-bar a {
+   font-family: Sarabun;
    color: white;
    text-decoration: none;
-   margin-left: 50px;
-   margin-right: 50px;
-   margin-top: auto;
+   font-size: 1.2rem;
+
+   position: relative;
+   margin-left: 65px;
+   margin-right: 65px;
+   margin-top: 50px;
    margin-bottom: auto;
    z-index: 5;
+   top: 20px;
 
-   height: 40px;p
-   width: 100px;
 }
 
 #nav-bar a:active { 
@@ -60,10 +64,15 @@ body {
    padding: none;
    text-align: center;
 }
+
+.main-content div {
+   margin-top: 9px;
+   margin-bottom: 9px;
+}
  
 .img-link {
-   max-width: 100px;
-   max-height: 80px;
+   max-width: 150px;
+   max-height: 120px;
    margin-left: 20px;
    margin-right: 20px;
    border: white 2px solid;
@@ -108,9 +117,12 @@ body {
    margin-left: auto;
    margin-top: 10px;
    margin-bottom: 10px;
+   /* position: fixed; */
+
 }
 
 #contact-info {
+   /* position: absolute; */
    display: block;
    max-width: 955px;
    min-width: 300px;
@@ -135,5 +147,6 @@ body {
 }
 
 span {
+   display: inline;
    font-weight: 700;
 }
