@@ -73,6 +73,17 @@ i {
    font-size: 1rem;
    color: #9e1313;
    margin-left: 10px;
+   transition: transform 500ms ease-in-out 0s;
+   -o-transition: -o-transform 500ms ease-in-out 0s;
+   -webkit-transition: -webkit-transform 500ms ease-in-out 0s;
+   -moz-transition: -moz-transform 500ms ease-in-out 0s;
+}
+
+i:target {
+   transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
 }
 
 #alfred-books {
