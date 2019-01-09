@@ -70,7 +70,9 @@ body {
 }
 
 i {
-   font-size: 2rem;
+   font-size: 1rem;
+   color: #9e1313;
+   margin-left: 10px;
 }
 
 #alfred-books {
