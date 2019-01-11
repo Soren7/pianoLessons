@@ -1,9 +1,13 @@
 
+let alfredBooks = document.getElementById('alfred-books');
+let bookButton = document.getElementById('button');
 
-function run() {
-    var requiredBooks = document.getElementById('required-book');
-    console.log(requiredBooks);
+function dropDown () {
+    if (alfredBooks.className === 'hide') {
+        alfredBooks.className = 'example';
+    } else {
+        alfredBooks.className = 'hide';
+    }
 }
 
-
-$(document).ready(run);
+bookButton.onclick(dropDown());

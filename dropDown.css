@@ -1,0 +1,36 @@
+.hide {
+    display: none;
+    margin: -340px;
+ }
+ .example {
+     display: block;
+     transform: rotate(180deg);   
+ }
+ #button {
+    cursor: pointer; 
+ }
+ i {
+    color: #9e1313;
+ }
+ #alfred-books {
+    margin-left: auto;
+
+ }
+ #alfred-books div {
+    display: inline-block;  
+    height: 140px;
+    width: 150px;
+    margin-left: 20px
+ }
+ #alfred-books div p {
+    display: inline;
+ }
+ .img-link {
+    display: inline;
+    max-width: 150px;
+    max-height: 120px;
+    border: white 2px solid;
+ }
+ .img-link:hover {
+    border: 2px black solid;
+ }

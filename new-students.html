@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato|Sarabun" rel="stylesheet">
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="dropDown.css"/>
         <title> piano lessons</title>
     </head>
     <body>
@@ -20,8 +21,8 @@
            <div><span>- </span>A set of note flash cards</div> 
                 <a id="note-card" href="https://www.alfred.com/complete-color-coded-flash-cards/p/00-12061/" target="_blank"><img src="https://static.alfred.com/cache/c5/73/c57362fe96291922c24ae07d8b4169e5.jpg" class="img-link" ></a>
            <div>
-               <div><span>- </span>The folowing Alfred's Premier Piano Course Books <i class="fas fa-arrow-alt-circle-down" href="#alfred-books"></i> </div>
-                <div id="alfred-books">
+               <div id="button" onclick="dropDown()"><span>- </span>The folowing Alfred's Premier Piano Course Books <i class="fas fa-arrow-alt-circle-down" href="#alfred-books"></i> </div>
+                <div id="alfred-books" class="hide">
                   <div><p>Performance 1A</p> <a href="https://www.alfred.com/premier-piano-course-performance-1a/p/00-21232/" target="_blank" > <img src="https://static.alfred.com/cache/9b/23/9b23d5709babb50f1ae31f4a44b1ef7b.jpg" class="img-link"></a></div>
                   <div><p>Lesson 1A</p> <a href="https://www.alfred.com/premier-piano-course-lesson-1a/p/00-20652/" target="_blank" > <img src="https://static.alfred.com/cache/c4/0d/c40d1f7b22527f26ba903c23c9e8a99e.jpg" class="img-link"></a></div>
                   <div><p>Theory 1A</p> <a href="https://www.alfred.com/premier-piano-course-theory-1a/p/00-22354/" target="_blank" > <img src="https://static.alfred.com/cache/3a/1c/3a1c45fd68cfab3c2a59147489ea4a03.jpg" class="img-link"></a></div>
@@ -47,7 +48,7 @@
                 </tr>
                 <tr>
                     <td> Thursday </td>
-                    <td> 4:00-4:30 , 4:30-5:00 , 5:30-6:00</td>
+                    <td> 5:30-6:00 , 6:00-6:30 , 6:30-7:00</td>
                 </tr>
                 <tr>
                     <td> Friday </td>
@@ -58,6 +59,8 @@
             If you are intrested in having your child take lessons from me then you can <a href="https://www.gmail.com">email</a> me at <b>example.person@gmail.com</b>
          </p>
          <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-         <script src='main.js'></script>
+         <script src='main.js'>
+         
+         </script>
     </body>
 </html> 
