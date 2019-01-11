@@ -6,10 +6,10 @@ let arrow = document.getElementsByTagName('i');
 function dropDown () {
     if (alfredBooks.className === 'hide') {
         alfredBooks.className = 'example';
-        arrow.class.id = 'rotate';
+        arrow.id = 'foo';
     } else {
         alfredBooks.className = 'hide';
-        arrow.id = 'null';
+        arrow.id = 'rotate';
     }
 }
 
