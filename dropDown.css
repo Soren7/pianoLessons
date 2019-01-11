@@ -4,7 +4,6 @@
  }
  .example {
      display: block;
-     transform: rotate(180deg);   
  }
  #button {
     cursor: pointer; 
@@ -12,6 +11,13 @@
  i {
     color: #9e1313;
  }
+#rotate {
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
  #alfred-books {
     margin-left: auto;
 
