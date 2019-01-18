@@ -7,9 +7,25 @@
  }
  #button {
     cursor: pointer; 
+    background-color: #9e1313;
+    color: white;
+
+    width: 400px;
+    height: 35px;
+
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 14px;
+
+    border-radius: 5px;
  }
  i {
-    color: #9e1313;
+    color: white;
+ }
+ #button:hover{
+   background-color: #ff3535;
  }
 #rotate {
     -o-transform: rotate(180deg);

@@ -11,6 +11,6 @@ function dropDown () {
         alfredBooks.className = 'hide';
         arrow.id = 'rotate';
     }
-}
+};
 
 bookButton.onclick(dropDown());

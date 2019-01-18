@@ -121,6 +121,8 @@ span {
 }
 th {
    text-decoration: underline;
-   /* border-bottom: 1px black solid; */
-   margin-top: 10px;
+   margin-top: 11px;
+}
+.times {
+   text-align: center;
 }
